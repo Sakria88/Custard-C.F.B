@@ -637,6 +637,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1189600480}
     - target: {fileID: 5893009860514170762, guid: 0aeea035b42978245a05e0d2d9d1cf88, type: 3}
+      propertyPath: projectileMoveSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5893009860514170762, guid: 0aeea035b42978245a05e0d2d9d1cf88, type: 3}
       propertyPath: trajectory.m_PostInfinity
       value: 2
       objectReference: {fileID: 0}
@@ -829,6 +833,14 @@ PrefabInstance:
     - target: {fileID: 4842745538943623081, guid: 010c5e80c593add41b00b789fcf0bfc8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131251148576713846, guid: 010c5e80c593add41b00b789fcf0bfc8, type: 3}
+      propertyPath: m_Constraints
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131251148576713846, guid: 010c5e80c593add41b00b789fcf0bfc8, type: 3}
+      propertyPath: m_GravityScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
