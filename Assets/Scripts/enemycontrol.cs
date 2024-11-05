@@ -36,13 +36,23 @@ public class enemycontrol : MonoBehaviour
         {
             currentPoint = pointA.transform;
             Debug.Log("Hit pointB");
+            flip();
         }
         if (Vector2.Distance(transform.position, currentPoint.position) < 1f && currentPoint == pointA.transform)
         {
             currentPoint = pointB.transform;
             Debug.Log("Hit pointA");
+            flip();
         }
 
+
+    }
+
+    private void flip()
+    {
+        Vector3 localScale = transform.localScale;
+        localScale.x *= -1;
+        transform.localScale = localScale;
 
     }
     private void OnDrawGizmos()
