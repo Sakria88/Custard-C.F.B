@@ -25,10 +25,10 @@ public class Projectile : MonoBehaviour
         {
 
 
-            Vector3 moveDirNormalized = (targetPosition - transform.position).normalized;
+            Vector3 moveDirNormalized = (target.position - transform.position).normalized;
             transform.position += moveDirNormalized * moveSpeed * Time.deltaTime;
 
-            if (Vector3.Distance(transform.position, targetPosition) < DistanceToDestroy)
+            if (Vector3.Distance(transform.position, target.position) < DistanceToDestroy)
             {
                 Destroy(gameObject);
             }
@@ -39,8 +39,7 @@ public class Projectile : MonoBehaviour
     public void InitializeProjectile(Transform target, float moveSpeed)
     {
         this.target = target;
-        this.targetPosition = target.position;
- //+ Vector3.down;
+        //this.targetPosition = target.position + Vector3.down;
         this.moveSpeed = moveSpeed;
     }
 

@@ -67,18 +67,16 @@ public class Pc2 : MonoBehaviour
         if(rb.velocity.x > 0.01)
         {
             sr.flipX = false;
-            Running = true;
-            playerAnim.SetBool("Running", Running);
+
             idleTimer = 0;
         }
         if(rb.velocity.x < -0.01)
         {
             sr.flipX = true;
-            Running = true;
-            playerAnim.SetBool("Running", Running);
+
             idleTimer = 0;
         }
-        else if(rb.velocity.x == 0)
+        else if(inputHorizontal == 0f)
         {
             Running = false;
             playerAnim.SetBool("Running", Running);
@@ -97,6 +95,19 @@ public class Pc2 : MonoBehaviour
         }
 
 
+
+
+        //Check if moving and running
+        if(rb.velocity.x > 0.01 && inputHorizontal != 0f)
+        {
+            Running = true;
+            playerAnim.SetBool("Running", Running);
+        }
+        if(rb.velocity.x < -0.01 && inputHorizontal != 0f)
+        {
+            Running = true;
+            playerAnim.SetBool("Running", Running);
+        }
 
         if (Input.GetKeyDown(Jump) && GroundCheck())
         {
