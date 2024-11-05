@@ -698,6 +698,7 @@ GameObject:
   - component: {fileID: 1731406929}
   - component: {fileID: 1731406928}
   - component: {fileID: 1731406927}
+  - component: {fileID: 1731406931}
   m_Layer: 0
   m_Name: MiniBoss
   m_TagString: Untagged
@@ -844,6 +845,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1731406931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731406926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d6a9f168d205e2478460948b9cecd66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 4195972946586428840, guid: c7b961352edc65c46b26b3838b218b9a, type: 3}
+  Target: {fileID: 1189600480}
+  shootRate: 0
+  projectileMoveSpeed: 0
 --- !u!1001 &1510934538490624514
 PrefabInstance:
   m_ObjectHideFlags: 0
