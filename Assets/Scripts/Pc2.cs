@@ -98,26 +98,39 @@ public class Pc2 : MonoBehaviour
 
 
 
-        if (Input.GetKey(Jump) && GroundCheck())
+        if (Input.GetKeyDown(Jump) && GroundCheck())
         {
             Debug.Log("Jump");
             isJumping = true;
-            jumpTime = 0;
             playerAnim.SetBool("isJumping", isJumping);
+            jumpTime = 0;
             idleTimer = 0;
+            StartCoroutine(JumpWait());
         }
         if (isJumping)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpAmount);
             jumpTime += Time.deltaTime;
-            
+
         }
-        if (Input.GetKey(Jump) | jumpTime > buttonTime)
+        //if (Input.GetKey(Jump) | jumpTime > buttonTime)
+
+
+    }
+
+    IEnumerator JumpWait()
+    {
+        yield return new WaitForEndOfFrame();
+        yield return new WaitForEndOfFrame();
+        if (GroundCheck() && isJumping == true)
         {
             isJumping = false;
             playerAnim.SetBool("isJumping", isJumping);
         }
-
+        else
+        {
+            StartCoroutine(JumpWait());
+        }
     }
 
     private void OnDrawGizmos()
