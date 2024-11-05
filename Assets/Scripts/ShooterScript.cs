@@ -31,6 +31,7 @@ public class ShooterScript : MonoBehaviour
             shootTimer = shootRate;
             GameObject projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
             projectile.GetComponent<Projectile>().InitializeProjectile(Target, projectileMoveSpeed);
+            projectile.GetComponent<Projectile>().InitializeCurve(trajectory);
 
         }
 

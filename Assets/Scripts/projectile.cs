@@ -35,10 +35,12 @@ public class Projectile : MonoBehaviour
         }
     }
 
+
     public void InitializeProjectile(Transform target, float moveSpeed)
     {
         this.target = target;
-        this.targetPosition = target.position + Vector3.down;
+        this.targetPosition = target.position;
+ //+ Vector3.down;
         this.moveSpeed = moveSpeed;
     }
 
