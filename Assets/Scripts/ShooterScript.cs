@@ -10,6 +10,8 @@ public class ShooterScript : MonoBehaviour
 
     [SerializeField] private float shootRate;
     [SerializeField] private float projectileMoveSpeed;
+
+    [SerializeField] private AnimationCurve trajectory;
     private float shootTimer;
 
 
@@ -25,9 +27,10 @@ public class ShooterScript : MonoBehaviour
         shootTimer -= Time.deltaTime;
         if (shootTimer < 0)
         {
+
             shootTimer = shootRate;
-            Projectile projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity).GetComponent<Projectile>();
-            projectile.InitializeProjectile(Target, projectileMoveSpeed);
+            GameObject projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
+            projectile.GetComponent<Projectile>().InitializeProjectile(Target, projectileMoveSpeed);
 
         }
 
