@@ -681,6 +681,10 @@ PrefabInstance:
       value: Square
       objectReference: {fileID: 0}
     - target: {fileID: 6334124262299445416, guid: 57fe25c74937bcd4abb27fa50c03db74, type: 3}
+      propertyPath: m_UseOneWay
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6334124262299445416, guid: 57fe25c74937bcd4abb27fa50c03db74, type: 3}
       propertyPath: m_UseSideFriction
       value: 0
       objectReference: {fileID: 0}
