@@ -1,7 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TreeEditor;
+using Unity.Mathematics;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 
 public class Pc2 : MonoBehaviour
@@ -180,9 +183,11 @@ public class Pc2 : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy" && EnemyCheck())
         {
+            rb.velocity = new Vector2(Random.Range(-25f, 25f), (float)(jumpAmount * 0.75));
             Enemy = collision.gameObject.GetComponent<enemycontrol>();
             Enemy.dead = true;
             Debug.Log("Dead");
+
         }
     }
 }

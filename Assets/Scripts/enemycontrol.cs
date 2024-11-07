@@ -48,13 +48,15 @@ public class enemycontrol : MonoBehaviour
         }
 
          anim.SetBool("Dead", dead);
-        if (this.anim.GetCurrentAnimatorStateInfo(0).IsName("Dead"))
+        if (this.anim.GetCurrentAnimatorStateInfo(0).IsName("Death"))
         {
-            if(anim.GetCurrentAnimatorStateInfo(0).length > anim.GetCurrentAnimatorStateInfo(0).normalizedTime)
+
+            if (anim.GetCurrentAnimatorStateInfo(0).length > anim.GetCurrentAnimatorStateInfo(0).normalizedTime)
             {
                 Destroy(gameObject);
             }
         }
+        
 
 
     }
