@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fe50596a9a07dd240afc547c5c252731
+guid: 853d8b5345c4bf44db56e2d731565ca6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -149,13 +149,76 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ground enemy brownie_0
+      name: Air enemy flying right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16ffdd03aec31648904012c919cf7e4
+      internalID: 1727158353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air enemy flying right_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370bc4c17721e874894c77afc04cdbba
+      internalID: 716944340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air enemy flying right_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed10268079d73548a9dd7b6a316c1f8
+      internalID: -98155907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air enemy flying right_3
       rect:
         serializedVersion: 2
         x: 0
         y: 512
-        width: 256
-        height: 256
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,41 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f62529826912a2147a9e24221b780cb9
-      internalID: -690297937
+      spriteID: c97c87b601fb1064384caa70ac92f04e
+      internalID: -1521002935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground enemy brownie_1
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 512
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4154533cc21e1e8418677ceecc4ec87e
-      internalID: 578603449
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ground enemy brownie_2
+      name: Air enemy flying right_4
       rect:
         serializedVersion: 2
         x: 512
         y: 512
-        width: 256
-        height: 256
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +247,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53d5931f645dba840b1ea655dd29f6aa
-      internalID: -17859422
+      spriteID: 47c5aa45a975d7b4680c95219dddabcd
+      internalID: -1327032391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground enemy brownie_3
+      name: Air enemy flying right_5
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b211e14a4a4474b9f6a77216216bff
+      internalID: 508687197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air enemy flying right_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 256
-        width: 256
-        height: 256
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,62 +289,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d23c0ca644b27374cb1714b4d031a3a4
-      internalID: 1539147676
+      spriteID: b31f308f29b571341815278e228c43e0
+      internalID: -2089078966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground enemy brownie_4
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 256
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 53c2f815375c89045a71619086c3c95c
-      internalID: -876218085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ground enemy brownie_5
+      name: Air enemy flying right_7
       rect:
         serializedVersion: 2
         x: 512
-        y: 256
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b1d183c129b94f42ba5cd81d8a412cc
-      internalID: -1825710374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ground enemy brownie_6
-      rect:
-        serializedVersion: 2
-        x: 0
         y: 0
-        width: 256
-        height: 256
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,29 +310,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0d6662e9884311409a5ee3492e1883e
-      internalID: 168184174
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ground enemy brownie_7
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 927a629358daf844bbd27e7570a912f0
-      internalID: 1347920360
+      spriteID: df539510514214844a388dd2fc0bc13d
+      internalID: 1402303447
       vertices: []
       indices: 
       edges: []
@@ -327,14 +327,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ground enemy brownie_0: -690297937
-      Ground enemy brownie_1: 578603449
-      Ground enemy brownie_2: -17859422
-      Ground enemy brownie_3: 1539147676
-      Ground enemy brownie_4: -876218085
-      Ground enemy brownie_5: -1825710374
-      Ground enemy brownie_6: 168184174
-      Ground enemy brownie_7: 1347920360
+      Air enemy flying right_0: 1727158353
+      Air enemy flying right_1: 716944340
+      Air enemy flying right_2: -98155907
+      Air enemy flying right_3: -1521002935
+      Air enemy flying right_4: -1327032391
+      Air enemy flying right_5: 508687197
+      Air enemy flying right_6: -2089078966
+      Air enemy flying right_7: 1402303447
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

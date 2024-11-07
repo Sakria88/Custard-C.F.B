@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fe50596a9a07dd240afc547c5c252731
+guid: 1cf407335eb5765429f50e0807d8d4a4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -149,7 +149,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ground enemy brownie_0
+      name: Enemy death_0
       rect:
         serializedVersion: 2
         x: 0
@@ -163,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f62529826912a2147a9e24221b780cb9
-      internalID: -690297937
+      spriteID: 1b2ee30af5104ce4d851d0d636d1d3bb
+      internalID: 1927634984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground enemy brownie_1
+      name: Enemy death_1
       rect:
         serializedVersion: 2
         x: 256
@@ -184,14 +184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4154533cc21e1e8418677ceecc4ec87e
-      internalID: 578603449
+      spriteID: e6f7c1a3b3e9a4b448eeea0b1e5b2f6d
+      internalID: -2130590968
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground enemy brownie_2
+      name: Enemy death_2
       rect:
         serializedVersion: 2
         x: 512
@@ -205,14 +205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53d5931f645dba840b1ea655dd29f6aa
-      internalID: -17859422
+      spriteID: d6d880282121ccd47913bffb244e7f92
+      internalID: 1672872938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground enemy brownie_3
+      name: Enemy death_3
       rect:
         serializedVersion: 2
         x: 0
@@ -226,14 +226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d23c0ca644b27374cb1714b4d031a3a4
-      internalID: 1539147676
+      spriteID: 7493fafd1bab1494bb1f30d226c642f6
+      internalID: -460880985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground enemy brownie_4
+      name: Enemy death_4
       rect:
         serializedVersion: 2
         x: 256
@@ -247,14 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53c2f815375c89045a71619086c3c95c
-      internalID: -876218085
+      spriteID: c06ddd59c8d1704469153f27f1b16bf7
+      internalID: 35882897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground enemy brownie_5
+      name: Enemy death_5
       rect:
         serializedVersion: 2
         x: 512
@@ -268,14 +268,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b1d183c129b94f42ba5cd81d8a412cc
-      internalID: -1825710374
+      spriteID: a23b17b781e4b57429ca54729e80f206
+      internalID: -1989494007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground enemy brownie_6
+      name: Enemy death_6
       rect:
         serializedVersion: 2
         x: 0
@@ -289,14 +289,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0d6662e9884311409a5ee3492e1883e
-      internalID: 168184174
+      spriteID: 5697d43ffccd94143a92645ed982d026
+      internalID: 817953964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground enemy brownie_7
+      name: Enemy death_7
       rect:
         serializedVersion: 2
         x: 256
@@ -310,8 +310,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 927a629358daf844bbd27e7570a912f0
-      internalID: 1347920360
+      spriteID: 3a900ef0573a32e4b87e85cd7c984d42
+      internalID: -1776630582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy death_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4492e380121204690d811ecca3419d
+      internalID: 934380995
       vertices: []
       indices: 
       edges: []
@@ -327,14 +348,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ground enemy brownie_0: -690297937
-      Ground enemy brownie_1: 578603449
-      Ground enemy brownie_2: -17859422
-      Ground enemy brownie_3: 1539147676
-      Ground enemy brownie_4: -876218085
-      Ground enemy brownie_5: -1825710374
-      Ground enemy brownie_6: 168184174
-      Ground enemy brownie_7: 1347920360
+      Enemy death_0: 1927634984
+      Enemy death_1: -2130590968
+      Enemy death_2: 1672872938
+      Enemy death_3: -460880985
+      Enemy death_4: 35882897
+      Enemy death_5: -1989494007
+      Enemy death_6: 817953964
+      Enemy death_7: -1776630582
+      Enemy death_8: 934380995
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -10,6 +10,7 @@ public class enemycontrol : MonoBehaviour
     private Animator anim;
     private Transform currentPoint;
     public float speed;
+    public bool dead;
 
     // Start is called before the first frame update
     void Start()
@@ -44,6 +45,8 @@ public class enemycontrol : MonoBehaviour
             Debug.Log("Hit pointA");
             flip();
         }
+
+         
 
 
     }

@@ -67,7 +67,7 @@ public class PlayerController : MonoBehaviour
             {
                 jumpCancelled = true;
             }
-            if(jumpTime > buttonTime)
+            if (jumpTime > buttonTime)
             {
                 isJumping = false;
             }
@@ -77,10 +77,23 @@ public class PlayerController : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if(jumpCancelled && isJumping && rb.velocity.y > 0)
+        if (jumpCancelled && isJumping && rb.velocity.y > 0)
         {
             //rb.AddForce(Vector2.down * cancelRate);
         }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            Debug.Log("Hit");
+        }
+        //    if (collision.GetContact(0) > )
+        //    {
+
+        //    }
+        //}
+
     }
 }
 

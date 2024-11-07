@@ -33,6 +33,11 @@ public class Pc2 : MonoBehaviour
     [SerializeField] private float maxDistance;
     private bool Gcheck;
 
+    //EnemyCheck
+    [SerializeField] private LayerMask layerMaskE;
+    private bool Echeck;
+
+
     //timer
     private float idleTimer;
 
@@ -61,7 +66,10 @@ public class Pc2 : MonoBehaviour
         //Clamped movement and fall speed
         rb.velocity = new Vector2(Mathf.Clamp(rb.velocity.x, -maxSpeed, maxSpeed), Mathf.Clamp(rb.velocity.y, fallSpeed, jumpAmount));
 
-
+        if (EnemyCheck())
+        {
+            Debug.Log("Enemy");
+        }
 
 
         if(rb.velocity.x > 0.01)
@@ -153,9 +161,16 @@ public class Pc2 : MonoBehaviour
     private bool GroundCheck()
     {
         Gcheck = Physics2D.BoxCast(transform.position, boxSize, 0, -transform.up, maxDistance, layerMask);
-        Debug.Log("Landed");
+        //Debug.Log("Landed");
         Debug.Log(Gcheck);
         return Gcheck;
+        
+    }   
+    private bool EnemyCheck()
+    {
+        Echeck = Physics2D.BoxCast(transform.position, boxSize, 0, -transform.up, maxDistance, layerMaskE);
+        Debug.Log(Echeck);
+        return Echeck;
         
     }
 }
