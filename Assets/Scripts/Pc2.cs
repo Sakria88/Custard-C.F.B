@@ -35,6 +35,7 @@ public class Pc2 : MonoBehaviour
 
     //EnemyCheck
     [SerializeField] private LayerMask layerMaskE;
+    public enemycontrol Enemy;
     private bool Echeck;
 
 
@@ -69,6 +70,7 @@ public class Pc2 : MonoBehaviour
         if (EnemyCheck())
         {
             Debug.Log("Enemy");
+            
         }
 
 
@@ -172,5 +174,15 @@ public class Pc2 : MonoBehaviour
         Debug.Log(Echeck);
         return Echeck;
         
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy" && EnemyCheck())
+        {
+            Enemy = collision.gameObject.GetComponent<enemycontrol>();
+            Enemy.dead = true;
+            Debug.Log("Dead");
+        }
     }
 }

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class enemycontrol : MonoBehaviour
@@ -46,7 +47,14 @@ public class enemycontrol : MonoBehaviour
             flip();
         }
 
-         
+         anim.SetBool("Dead", dead);
+        if (this.anim.GetCurrentAnimatorStateInfo(0).IsName("Dead"))
+        {
+            if(anim.GetCurrentAnimatorStateInfo(0).length > anim.GetCurrentAnimatorStateInfo(0).normalizedTime)
+            {
+                Destroy(gameObject);
+            }
+        }
 
 
     }
