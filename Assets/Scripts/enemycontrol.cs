@@ -26,28 +26,32 @@ public class enemycontrol : MonoBehaviour
     void Update()
     {
         Vector2 point = currentPoint.position - transform.position;
-        if(currentPoint == pointB.transform)
+        if (!dead)
         {
-            rb.velocity = new Vector2(speed, 0);
-        }
-        else
-        {
-            rb.velocity = new Vector2(-speed, 0);
-        }
-        if(Vector2.Distance(transform.position, currentPoint.position) < 1f && currentPoint == pointB.transform)
-        {
-            currentPoint = pointA.transform;
-            Debug.Log("Hit pointB");
-            flip();
-        }
-        if (Vector2.Distance(transform.position, currentPoint.position) < 1f && currentPoint == pointA.transform)
-        {
-            currentPoint = pointB.transform;
-            Debug.Log("Hit pointA");
-            flip();
-        }
+            if (currentPoint == pointB.transform)
+            {
+                rb.velocity = new Vector2(speed, 0);
+            }
+            else
+            {
+                rb.velocity = new Vector2(-speed, 0);
+            }
+            if (Vector2.Distance(transform.position, currentPoint.position) < 1f && currentPoint == pointB.transform)
+            {
+                currentPoint = pointA.transform;
+                Debug.Log("Hit pointB");
+                flip();
+            }
+            if (Vector2.Distance(transform.position, currentPoint.position) < 1f && currentPoint == pointA.transform)
+            {
+                currentPoint = pointB.transform;
+                Debug.Log("Hit pointA");
+                flip();
+            }
 
-         anim.SetBool("Dead", dead);
+      
+        }
+        anim.SetBool("Dead", dead);
         if (this.anim.GetCurrentAnimatorStateInfo(0).IsName("Death"))
         {
 
@@ -56,7 +60,8 @@ public class enemycontrol : MonoBehaviour
                 Destroy(gameObject);
             }
         }
-        
+
+
 
 
     }

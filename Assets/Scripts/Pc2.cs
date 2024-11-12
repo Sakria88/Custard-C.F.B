@@ -204,7 +204,7 @@ public class Pc2 : MonoBehaviour
             Debug.Log("Dead");
 
         }
-        if (collision.gameObject.tag == "Heal")
+        if (collision.gameObject.tag == "Heal" && currentHealth != maxHealth)
         {
             Debug.Log("heal");
             heal = collision.gameObject.GetComponent<heal>();
