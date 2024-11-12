@@ -17,11 +17,11 @@ public class GameOver : MonoBehaviour
         
     }
 
-    void OnTriggerEnter2D(Collider other)
+    /*void OnTriggerEnter2D(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
             SceneManager.LoadSceneAsync("Game Over");
         }
-    }
+    }*/
 }
