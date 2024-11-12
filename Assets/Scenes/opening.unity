@@ -122,6 +122,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD:Assets/Scenes/opening.unity
 --- !u!1 &76063063
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,6 +385,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 660385928}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of d2edbe2 (Merge branch 'main' of https://github.com/Sakria88/Custard-C.F.B):Assets/Scenes/Opening loading.unity
 --- !u!1 &826735636
 GameObject:
   m_ObjectHideFlags: 0
@@ -643,6 +646,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:Assets/Scenes/opening.unity
 --- !u!1 &1602392788
 GameObject:
   m_ObjectHideFlags: 0
@@ -807,6 +811,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+>>>>>>> parent of d2edbe2 (Merge branch 'main' of https://github.com/Sakria88/Custard-C.F.B):Assets/Scenes/Opening loading.unity
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -815,6 +821,7 @@ SceneRoots:
   - {fileID: 900868627}
   - {fileID: 1367281822}
   - {fileID: 826735637}
+<<<<<<< HEAD:Assets/Scenes/opening.unity
   - {fileID: 586691631}
 <<<<<<< HEAD
 <<<<<<< Updated upstream
@@ -824,3 +831,5 @@ SceneRoots:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of 1073641 (scene conroller)
+=======
+>>>>>>> parent of d2edbe2 (Merge branch 'main' of https://github.com/Sakria88/Custard-C.F.B):Assets/Scenes/Opening loading.unity
