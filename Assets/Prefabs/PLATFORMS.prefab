@@ -186,3 +186,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1679468659327690593}
+  collapsable: 0
+  timer: 1
+  timers: 0
