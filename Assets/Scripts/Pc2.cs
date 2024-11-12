@@ -204,14 +204,14 @@ public class Pc2 : MonoBehaviour
             Debug.Log("Dead");
 
         }
-        if (collision.gameObject.tag == "Heal" && currentHealth != maxHealth)
-        {
-            Debug.Log("heal");
-            heal = collision.gameObject.GetComponent<heal>();
-            healAmmount = heal.healamount;
-            Heal(healAmmount);
-            heal.Pickup();
-        }
+        //if (collision.gameObject.tag == "Heal" && currentHealth != maxHealth)
+        //{
+        //    Debug.Log("heal");
+        //    heal = collision.gameObject.GetComponent<heal>();
+        //    healAmmount = heal.healamount;
+        //    Heal(healAmmount);
+        //    heal.Pickup();
+        //}
     }
 
     void TakeDamage(int damage)
@@ -221,7 +221,7 @@ public class Pc2 : MonoBehaviour
         healthbar.SetHealth(currentHealth);
     }
 
-    void Heal(int healAmmount)
+    public void Heal(int healAmmount)
     {
         currentHealth += healAmmount;
         healthbar.SetHealth(currentHealth);
