@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class LevelSelect : MonoBehaviour
 {
+
+
     public void One()
     {
         SceneManager.LoadSceneAsync("first level");
@@ -19,4 +22,6 @@ public class LevelSelect : MonoBehaviour
     {
         Application.Quit();
     }
+
+
 }
