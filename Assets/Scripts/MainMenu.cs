@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void Play()
     {
-        SceneManager.LoadSceneAsync("first level");
+        SceneManager.LoadSceneAsync("First cutscene");
     }
 
     public void LevelSelect()

@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/opening.unity
-    guid: ae29644b90b52b542a9caa31f755312c
+    path: Assets/Scenes/Opening Scene.unity
+    guid: d1918940b65bd604f99a62e7119c23f7
   - enabled: 1
     path: Assets/Scenes/TtileScreen.unity
     guid: a6037b0aa40184b4ab9733ddc11ef871
@@ -20,4 +20,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/second level.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/2nd cutscene.unity
+    guid: 3f24a5c5d0a670644a1ec3df47990a9f
+  - enabled: 1
+    path: Assets/Scenes/3rd cutscene.unity
+    guid: 179eeb3e5616b924aa9cf2e659e4dad2
+  - enabled: 1
+    path: Assets/Scenes/4th cutscene.unity
+    guid: fbbd9ccee8042ba4b82c8eb60e0cbaa9
+  - enabled: 1
+    path: Assets/Scenes/First cutscene.unity
+    guid: 509f09db94da3e64da696a1d261eccce
+  - enabled: 1
+    path: Assets/Scenes/last cutscene.unity
+    guid: ba69b1653efed6a41adf8b3163bccea8
   m_configObjects: {}
