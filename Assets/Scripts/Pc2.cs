@@ -30,6 +30,12 @@ public class Pc2 : MonoBehaviour
     [SerializeField] private bool Running;
     [SerializeField] private bool superIdle;
 
+    //Health
+    public int maxHealth = 100;
+    public int currentHealth;
+
+    public Healthbar healthbar;
+
     //ground check
     [SerializeField] private Vector3 boxSize;
     [SerializeField] private LayerMask layerMask;
@@ -48,6 +54,9 @@ public class Pc2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        currentHealth = maxHealth;
+        healthbar.SetMaxHealth(maxHealth);
+
         sr = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         playerAnim.SetBool("Running", Running);
@@ -65,6 +74,11 @@ public class Pc2 : MonoBehaviour
             rb.AddForce(Vector2.right * inputHorizontal * moveSpeed);
             //superIdle = false;
             //playerAnim.SetBool("superIdle", superIdle);
+        }
+
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            TakeDamage(10);
         }
 
         //Clamped movement and fall speed
@@ -190,4 +204,13 @@ public class Pc2 : MonoBehaviour
 
         }
     }
+
+    void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+
+        healthbar.SetHealth(currentHealth);
+    }
+
+
 }
