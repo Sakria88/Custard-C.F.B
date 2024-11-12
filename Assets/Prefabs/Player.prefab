@@ -12,12 +12,11 @@ GameObject:
   - component: {fileID: 2426600892657145735}
   - component: {fileID: 3689715955710671180}
   - component: {fileID: 1691125919693635287}
-  - component: {fileID: 8529870006496795594}
   - component: {fileID: 3647733162204243134}
   - component: {fileID: 9183700047161197798}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -161,24 +160,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1424878, y: 1.791914}
   m_EdgeRadius: 0
---- !u!114 &8529870006496795594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 819482197316444253}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4c388bc1153be74db0d44060564c1b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  p_spriteRenderer: {fileID: 2426600892657145735}
-  rb: {fileID: 3689715955710671180}
-  f_playerSpeed: 10
-  f_jumpHeight: 100
-  cancelRate: 100
-  buttonTime: 0.5
 --- !u!114 &3647733162204243134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,6 +185,11 @@ MonoBehaviour:
   playerAnim: {fileID: 9183700047161197798}
   Running: 0
   superIdle: 0
+  maxHealth: 100
+  currentHealth: 0
+  healAmmount: 25
+  heal: {fileID: 0}
+  healthbar: {fileID: 0}
   boxSize: {x: 1, y: 0.1, z: 0}
   layerMask:
     serializedVersion: 2
