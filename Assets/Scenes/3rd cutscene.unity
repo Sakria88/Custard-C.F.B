@@ -132,6 +132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 376913698}
   - component: {fileID: 376913697}
+  - component: {fileID: 376913699}
   m_Layer: 0
   m_Name: 3rd scene
   m_TagString: Untagged
@@ -190,6 +191,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &376913699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376913696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e77e1b8c5abaa5f45aeca5b832e2ffef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoPlayer: {fileID: 376913697}
 --- !u!1 &1343118013
 GameObject:
   m_ObjectHideFlags: 0

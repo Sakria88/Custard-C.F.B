@@ -8,7 +8,7 @@ public class VideoFrameCheck : MonoBehaviour
 
     void Start()
     {
-        // Register the event when the video finishes playing
+
         videoPlayer.loopPointReached += OnVideoFinished;
     }
 
@@ -16,11 +16,16 @@ public class VideoFrameCheck : MonoBehaviour
     {
         Debug.Log("Video has finished playing!");
 
-        // Check the current scene and load the next appropriate scene
         if (SceneManager.GetActiveScene().name == "2nd cutscene")
         {
             SceneManager.LoadSceneAsync("first level");
         }
+
+        if (SceneManager.GetActiveScene().name == "3rd cutscene")
+        {
+            SceneManager.LoadSceneAsync("Second level");
+        }
+
         else
         {
             SceneManager.LoadSceneAsync("2nd cutscene");
