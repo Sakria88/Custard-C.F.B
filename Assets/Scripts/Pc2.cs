@@ -33,7 +33,8 @@ public class Pc2 : MonoBehaviour
     //Health
     public int maxHealth = 100;
     public int currentHealth;
-
+    public int healAmmount = 25;
+    public heal heal;
     public Healthbar healthbar;
 
     //ground check
@@ -203,6 +204,14 @@ public class Pc2 : MonoBehaviour
             Debug.Log("Dead");
 
         }
+        if (collision.gameObject.tag == "Heal")
+        {
+            Debug.Log("heal");
+            heal = collision.gameObject.GetComponent<heal>();
+            healAmmount = heal.healamount;
+            Heal(healAmmount);
+            heal.Pickup();
+        }
     }
 
     void TakeDamage(int damage)
@@ -212,5 +221,9 @@ public class Pc2 : MonoBehaviour
         healthbar.SetHealth(currentHealth);
     }
 
-
+    void Heal(int healAmmount)
+    {
+        currentHealth += healAmmount;
+        healthbar.SetHealth(currentHealth);
+    }
 }
