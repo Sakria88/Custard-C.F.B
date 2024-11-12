@@ -48,7 +48,7 @@ public class FirstLevel : MonoBehaviour
 
         if (progress >= 100)
         {
-            SceneManager.LoadSceneAsync(1);
+            SceneManager.LoadSceneAsync(0);
         }
         
     }
