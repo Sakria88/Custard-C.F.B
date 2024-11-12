@@ -154,6 +154,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 2.297104
       objectReference: {fileID: 0}
+    - target: {fileID: 670525968820759333, guid: f9981989b057b3e47a14d1ba127bb3d7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 428.6
+      objectReference: {fileID: 0}
     - target: {fileID: 887703752397044126, guid: f9981989b057b3e47a14d1ba127bb3d7, type: 3}
       propertyPath: m_Name
       value: Hub
