@@ -106,6 +106,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -113,10 +152,10 @@ TextureImporter:
       name: Ice-cream Golem still final_0
       rect:
         serializedVersion: 2
-        x: 261
-        y: 3173
-        width: 486
-        height: 614
+        x: 0
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,10 +173,10 @@ TextureImporter:
       name: Ice-cream Golem still final_1
       rect:
         serializedVersion: 2
-        x: 1301
-        y: 3173
-        width: 486
-        height: 614
+        x: 1024
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,10 +194,10 @@ TextureImporter:
       name: Ice-cream Golem still final_2
       rect:
         serializedVersion: 2
-        x: 2333
-        y: 3173
-        width: 486
-        height: 606
+        x: 2048
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +215,10 @@ TextureImporter:
       name: Ice-cream Golem still final_3
       rect:
         serializedVersion: 2
-        x: 277
-        y: 2149
-        width: 486
-        height: 614
+        x: 0
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +236,10 @@ TextureImporter:
       name: Ice-cream Golem still final_4
       rect:
         serializedVersion: 2
-        x: 1293
-        y: 2149
-        width: 486
-        height: 614
+        x: 1024
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +257,10 @@ TextureImporter:
       name: Ice-cream Golem still final_5
       rect:
         serializedVersion: 2
-        x: 2309
-        y: 2149
-        width: 486
-        height: 614
+        x: 2048
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +278,10 @@ TextureImporter:
       name: Ice-cream Golem still final_6
       rect:
         serializedVersion: 2
-        x: 277
-        y: 1125
-        width: 486
-        height: 614
+        x: 0
+        y: 1024
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +299,10 @@ TextureImporter:
       name: Ice-cream Golem still final_7
       rect:
         serializedVersion: 2
-        x: 1309
-        y: 1125
-        width: 486
-        height: 606
+        x: 1024
+        y: 1024
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +320,10 @@ TextureImporter:
       name: Ice-cream Golem still final_8
       rect:
         serializedVersion: 2
-        x: 2325
-        y: 1125
-        width: 486
-        height: 614
+        x: 2048
+        y: 1024
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,13 +338,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ice-cream Golem still final_10
+      name: Ice-cream Golem still final_9
       rect:
         serializedVersion: 2
-        x: 260
-        y: 101
-        width: 495
-        height: 614
+        x: 0
+        y: 0
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,8 +352,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f7cd15c6b6007244b591c913e3fdf6e
-      internalID: 65970436
+      spriteID: 87f8ccb76a0abce4e902ba20919c12fa
+      internalID: 1772910257
       vertices: []
       indices: 
       edges: []
@@ -332,7 +371,7 @@ TextureImporter:
     nameFileIdTable:
       Ice-cream Golem still final_0: -371598843
       Ice-cream Golem still final_1: 68670315
-      Ice-cream Golem still final_10: 65970436
+      Ice-cream Golem still final_10: -242762136
       Ice-cream Golem still final_2: 2016150385
       Ice-cream Golem still final_3: -939688966
       Ice-cream Golem still final_4: -373589598

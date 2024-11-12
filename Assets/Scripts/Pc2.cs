@@ -21,7 +21,7 @@ public class Pc2 : MonoBehaviour
     //jump 
     [SerializeField] private float jumpTime;
     [SerializeField] private float buttonTime = 0.3f;
-    [SerializeField] private bool isJumping;
+    [SerializeField] public bool isJumping;
 
     //player
     [SerializeField] private Rigidbody2D rb;

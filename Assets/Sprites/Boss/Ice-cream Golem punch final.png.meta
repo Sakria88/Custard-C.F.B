@@ -106,6 +106,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -113,12 +152,12 @@ TextureImporter:
       name: Ice-cream Golem punch final_0
       rect:
         serializedVersion: 2
-        x: 261
-        y: 3173
-        width: 486
-        height: 614
+        x: 0
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,12 +173,12 @@ TextureImporter:
       name: Ice-cream Golem punch final_1
       rect:
         serializedVersion: 2
-        x: 1301
-        y: 3173
-        width: 486
-        height: 614
+        x: 1024
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -155,12 +194,12 @@ TextureImporter:
       name: Ice-cream Golem punch final_2
       rect:
         serializedVersion: 2
-        x: 2357
-        y: 3173
-        width: 390
-        height: 606
+        x: 2048
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -176,12 +215,12 @@ TextureImporter:
       name: Ice-cream Golem punch final_3
       rect:
         serializedVersion: 2
-        x: 357
-        y: 2153
-        width: 332
-        height: 613
+        x: 0
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -197,12 +236,12 @@ TextureImporter:
       name: Ice-cream Golem punch final_5
       rect:
         serializedVersion: 2
-        x: 1373
-        y: 2149
-        width: 310
-        height: 614
+        x: 2048
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -218,12 +257,12 @@ TextureImporter:
       name: Ice-cream Golem punch final_6
       rect:
         serializedVersion: 2
-        x: 2389
-        y: 2149
-        width: 342
-        height: 614
+        x: 0
+        y: 1024
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -239,12 +278,12 @@ TextureImporter:
       name: Ice-cream Golem punch final_7
       rect:
         serializedVersion: 2
-        x: 357
-        y: 1125
-        width: 462
-        height: 614
+        x: 1024
+        y: 1024
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -260,12 +299,12 @@ TextureImporter:
       name: Ice-cream Golem punch final_8
       rect:
         serializedVersion: 2
-        x: 1381
-        y: 1125
-        width: 470
-        height: 606
+        x: 2048
+        y: 1024
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -281,12 +320,12 @@ TextureImporter:
       name: Ice-cream Golem punch final_9
       rect:
         serializedVersion: 2
-        x: 2405
-        y: 1125
-        width: 398
-        height: 614
+        x: 0
+        y: 0
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -299,22 +338,22 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ice-cream Golem punch final_10
+      name: Ice-cream Golem punch final_4
       rect:
         serializedVersion: 2
-        x: 293
-        y: 101
-        width: 390
-        height: 614
+        x: 1024
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ebcb15ecf5a17b45afb819c3a4fb044
-      internalID: 896128827
+      spriteID: b6afe19a0f643aa4da3a1a0daf209508
+      internalID: -764549362
       vertices: []
       indices: 
       edges: []
@@ -332,7 +371,6 @@ TextureImporter:
     nameFileIdTable:
       Ice-cream Golem punch final_0: -1123274088
       Ice-cream Golem punch final_1: 1330909177
-      Ice-cream Golem punch final_10: 896128827
       Ice-cream Golem punch final_2: 141539077
       Ice-cream Golem punch final_3: 1586446336
       Ice-cream Golem punch final_4: -764549362

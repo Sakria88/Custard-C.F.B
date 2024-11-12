@@ -106,6 +106,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -113,10 +152,10 @@ TextureImporter:
       name: Ice-cream Golem throw final_0
       rect:
         serializedVersion: 2
-        x: 261
-        y: 3173
-        width: 486
-        height: 614
+        x: 0
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,10 +173,10 @@ TextureImporter:
       name: Ice-cream Golem throw final_1
       rect:
         serializedVersion: 2
-        x: 1325
-        y: 3173
-        width: 390
-        height: 614
+        x: 1024
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,10 +194,10 @@ TextureImporter:
       name: Ice-cream Golem throw final_2
       rect:
         serializedVersion: 2
-        x: 1701
-        y: 3333
-        width: 30
-        height: 54
+        x: 2048
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +215,10 @@ TextureImporter:
       name: Ice-cream Golem throw final_3
       rect:
         serializedVersion: 2
-        x: 2389
-        y: 3173
-        width: 342
-        height: 606
+        x: 3072
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +236,10 @@ TextureImporter:
       name: Ice-cream Golem throw final_4
       rect:
         serializedVersion: 2
-        x: 3405
-        y: 3173
-        width: 390
-        height: 614
+        x: 0
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +257,10 @@ TextureImporter:
       name: Ice-cream Golem throw final_5
       rect:
         serializedVersion: 2
-        x: 2725
-        y: 3261
-        width: 30
-        height: 54
+        x: 1024
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +278,10 @@ TextureImporter:
       name: Ice-cream Golem throw final_6
       rect:
         serializedVersion: 2
-        x: 285
-        y: 2149
-        width: 470
-        height: 614
+        x: 2048
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +299,10 @@ TextureImporter:
       name: Ice-cream Golem throw final_7
       rect:
         serializedVersion: 2
-        x: 1253
-        y: 2149
-        width: 502
-        height: 614
+        x: 3072
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +320,10 @@ TextureImporter:
       name: Ice-cream Golem throw final_8
       rect:
         serializedVersion: 2
-        x: 2213
-        y: 2149
-        width: 558
-        height: 614
+        x: 0
+        y: 1024
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +341,10 @@ TextureImporter:
       name: Ice-cream Golem throw final_9
       rect:
         serializedVersion: 2
-        x: 3293
-        y: 2149
-        width: 446
-        height: 630
+        x: 1024
+        y: 1024
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,48 +354,6 @@ TextureImporter:
       bones: []
       spriteID: ade875f14205ba9469cc799bf8606b6d
       internalID: 2066259847
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ice-cream Golem throw final_10
-      rect:
-        serializedVersion: 2
-        x: 357
-        y: 1125
-        width: 302
-        height: 758
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 709c5947a8fb4ec4cacbeb443f320871
-      internalID: 1841675022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ice-cream Golem throw final_11
-      rect:
-        serializedVersion: 2
-        x: 1381
-        y: 1125
-        width: 438
-        height: 774
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d4a4dabc53d8f9c439d791134c05484d
-      internalID: -220711817
       vertices: []
       indices: 
       edges: []
@@ -374,8 +371,6 @@ TextureImporter:
     nameFileIdTable:
       Ice-cream Golem throw final_0: 69900769
       Ice-cream Golem throw final_1: 581482145
-      Ice-cream Golem throw final_10: 1841675022
-      Ice-cream Golem throw final_11: -220711817
       Ice-cream Golem throw final_2: 1513515836
       Ice-cream Golem throw final_3: -2074449082
       Ice-cream Golem throw final_4: -1183515842
