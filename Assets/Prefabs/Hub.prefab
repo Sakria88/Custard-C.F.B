@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 7267092921444674053}
   - component: {fileID: 969945531317458586}
   m_Layer: 5
-  m_Name: Pause
+  m_Name: Hub
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
