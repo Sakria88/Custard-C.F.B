@@ -6,14 +6,24 @@ public class VideoFrameCheck : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
 
-    void Update()
+    void Start()
     {
-        // Check if the current frame is the last frame of the video
-        if (videoPlayer.frame >= (long)(videoPlayer.frameCount - 1))
-        {
-            Debug.Log("Video has finished playing!");
-            SceneManager.LoadSceneAsync("2nd cutscene");
+        // Register the event when the video finishes playing
+        videoPlayer.loopPointReached += OnVideoFinished;
+    }
 
+    void OnVideoFinished(VideoPlayer vp)
+    {
+        Debug.Log("Video has finished playing!");
+
+        // Check the current scene and load the next appropriate scene
+        if (SceneManager.GetActiveScene().name == "2nd cutscene")
+        {
+            SceneManager.LoadSceneAsync("first level");
+        }
+        else
+        {
+            SceneManager.LoadSceneAsync("2nd cutscene");
         }
     }
 }

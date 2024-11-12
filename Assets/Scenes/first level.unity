@@ -974,7 +974,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -7424943441841064442, guid: 0ce96d6055e2c0c4791911792f01a25d, type: 3}
       propertyPath: collapsable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1275677859322711043, guid: 0ce96d6055e2c0c4791911792f01a25d, type: 3}
       propertyPath: m_Name
@@ -1116,7 +1116,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -7424943441841064442, guid: 0ce96d6055e2c0c4791911792f01a25d, type: 3}
       propertyPath: collapsable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1275677859322711043, guid: 0ce96d6055e2c0c4791911792f01a25d, type: 3}
       propertyPath: m_Name
