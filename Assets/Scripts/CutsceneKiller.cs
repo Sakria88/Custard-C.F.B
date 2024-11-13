@@ -28,6 +28,7 @@ public class VideoFrameCheck : MonoBehaviour
 
         else if (SceneManager.GetActiveScene().name == "MiniBCutscene")
         {
+            Debug.Log("Loading: Mini Boss");
             SceneManager.LoadSceneAsync("Mini Boss");
         }
 
