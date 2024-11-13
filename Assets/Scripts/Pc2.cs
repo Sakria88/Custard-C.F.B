@@ -5,6 +5,7 @@ using TreeEditor;
 using Unity.Mathematics;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using UnityEngine.SceneManagement;
 
 
 public class Pc2 : MonoBehaviour
@@ -139,18 +140,12 @@ public class Pc2 : MonoBehaviour
 
         if (Input.GetKeyDown(Jump) && GroundCheck())
         {
-            Debug.Log("Jump");
             isJumping = true;
             playerAnim.SetBool("isJumping", isJumping);
+            rb.AddForce(Vector2.up * jumpAmount, ForceMode2D.Impulse);
             jumpTime = 0;
             idleTimer = 0;
             StartCoroutine(JumpWait());
-        }
-        if (isJumping)
-        {
-            rb.velocity = new Vector2(rb.velocity.x, jumpAmount);
-            jumpTime += Time.deltaTime;
-
         }
 
 
@@ -161,15 +156,12 @@ public class Pc2 : MonoBehaviour
     {
         yield return new WaitForEndOfFrame();
         yield return new WaitForEndOfFrame();
-        if (GroundCheck() && isJumping == true)
+        while (!GroundCheck() && isJumping)
         {
-            isJumping = false;
-            playerAnim.SetBool("isJumping", isJumping);
+            yield return null;
         }
-        else
-        {
-            StartCoroutine(JumpWait());
-        }
+        isJumping = false;
+        playerAnim.SetBool("isJumping", isJumping);
     }
 
     private void OnDrawGizmos()
@@ -196,15 +188,18 @@ public class Pc2 : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Enemy" && EnemyCheck())
+        if (collision.gameObject.CompareTag("Enemy"))
         {
-            rb.velocity = new Vector2(Random.Range(-25f, 25f), (float)(jumpAmount * 0.75));
-            Enemy = collision.gameObject.GetComponent<enemycontrol>();
-            Enemy.dead = true;
-            Debug.Log("Dead");
+            TakeDamage(10);
 
+            rb.velocity = new Vector2(Random.Range(-25f, 25f), jumpAmount * 0.75f);
+
+            enemycontrol enemy = collision.gameObject.GetComponent<enemycontrol>();
+            if (enemy != null)
+            {
+                enemy.dead = true;
+            }
         }
-
     }
 
     void TakeDamage(int damage)
@@ -212,6 +207,11 @@ public class Pc2 : MonoBehaviour
         currentHealth -= damage;
 
         healthbar.SetHealth(currentHealth);
+
+        if (currentHealth < 0)
+        {
+            SceneManager.LoadSceneAsync("Game Over");
+        }
     }
 
     public void Heal(int healAmmount)
@@ -219,4 +219,6 @@ public class Pc2 : MonoBehaviour
         currentHealth += healAmmount;
         healthbar.SetHealth(currentHealth);
     }
+
+    
 }
