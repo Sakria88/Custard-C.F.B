@@ -36,6 +36,12 @@ EditorBuildSettings:
     path: Assets/Scenes/last cutscene.unity
     guid: ba69b1653efed6a41adf8b3163bccea8
   - enabled: 1
+    path: Assets/Scenes/Mini Boss.unity
+    guid: 6cc5d179075164244847aa07237b6965
+  - enabled: 1
     path: Assets/Scenes/Game Over.unity
     guid: 6c13d6a3789f74f469210e822020dac4
+  - enabled: 1
+    path: Assets/Scenes/MiniBCutscene.unity
+    guid: 53d47cd542c631a41a01ffc502837b17
   m_configObjects: {}
