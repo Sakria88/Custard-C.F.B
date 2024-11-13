@@ -24,7 +24,7 @@ public class Level2Portal : MonoBehaviour
             Pc2 player = other.GetComponent<Pc2>();
             if (player != null && player.itemsCollected >= 2)
             {
-                SceneManager.LoadSceneAsync("4th cutscene");
+                SceneManager.LoadSceneAsync("MiniBCutscene");
             }
             else
             {
