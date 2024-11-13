@@ -208,7 +208,7 @@ public class Pc2 : MonoBehaviour
 
         healthbar.SetHealth(currentHealth);
 
-        if (currentHealth < 0)
+        if (currentHealth <= 0)
         {
             SceneManager.LoadSceneAsync("Game Over");
         }
