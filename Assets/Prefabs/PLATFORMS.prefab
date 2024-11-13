@@ -189,3 +189,6 @@ MonoBehaviour:
   collapsable: 0
   timer: 1
   timers: 0
+  respawn: 0
+  timeLimit: 0
+  collider2: {fileID: 8108934377438232604}

@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 7083750603207276304}
   - component: {fileID: 4443264505795296707}
   - component: {fileID: 4392442958596799843}
-  m_Layer: 7
+  - component: {fileID: 2973780182507515022}
+  m_Layer: 6
   m_Name: ENVIRONMNWT (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4197244203408638621}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -12.47, y: -3.75, z: 2.5393841}
   m_LocalScale: {x: 0.7137319, y: 0.4804945, z: 1.019617}
   m_ConstrainProportionsScale: 0
@@ -73,8 +74,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 309170849
-  m_SortingLayer: 3
+  m_SortingLayerID: 93656399
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 14086fb589165c94b9b0c0aaf2023ff0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -117,7 +118,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.11364484}
   m_SpriteTilingProperty:
@@ -167,5 +168,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 4443264505795296707}
   collapsable: 1
-  timer: 3
+  timer: 0
   timers: 0
+  timeLimit: 1
+--- !u!251 &2973780182507515022
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4197244203408638621}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
