@@ -21,14 +21,24 @@ public class VideoFrameCheck : MonoBehaviour
             SceneManager.LoadSceneAsync("first level");
         }
 
-        if (SceneManager.GetActiveScene().name == "3rd cutscene")
+        else if (SceneManager.GetActiveScene().name == "3rd cutscene")
         {
             SceneManager.LoadSceneAsync("Second level");
         }
 
+        else if (SceneManager.GetActiveScene().name == "MiniBCutscene")
+        {
+            SceneManager.LoadSceneAsync("Mini Boss");
+        }
+
+        else if (SceneManager.GetActiveScene().name == "4th cutscene")
+        {
+            SceneManager.LoadSceneAsync("Last cutscene");
+        }
+
         else
         {
-            SceneManager.LoadSceneAsync("2nd cutscene");
+            SceneManager.LoadSceneAsync("first level");
         }
     }
 }
