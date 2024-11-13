@@ -220,5 +220,14 @@ public class Pc2 : MonoBehaviour
         healthbar.SetHealth(currentHealth);
     }
 
-    
+    public int itemsCollected = 0;
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Tubby")
+        {
+            itemsCollected++;
+            Destroy(other.gameObject);
+        }
+    }
 }

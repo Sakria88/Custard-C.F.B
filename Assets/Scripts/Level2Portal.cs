@@ -19,9 +19,17 @@ public class Level2Portal : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.CompareTag("Player"))
         {
-            SceneManager.LoadSceneAsync("4th cutscene");
+            Pc2 player = other.GetComponent<Pc2>();
+            if (player != null && player.itemsCollected >= 2)
+            {
+                SceneManager.LoadSceneAsync("4th cutscene");
+            }
+            else
+            {
+                Debug.Log("You need to collect the required item to enter!");
+            }
         }
     }
 }
