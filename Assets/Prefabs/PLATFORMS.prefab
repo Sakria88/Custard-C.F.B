@@ -187,7 +187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 1679468659327690593}
   collapsable: 0
-  timer: 1
+  timer: 0
   timers: 0
   respawn: 0
   timeLimit: 0
