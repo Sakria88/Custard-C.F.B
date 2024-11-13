@@ -2321,7 +2321,7 @@ PrefabInstance:
       objectReference: {fileID: 2008596243}
     - target: {fileID: -7424943441841064442, guid: 0ce96d6055e2c0c4791911792f01a25d, type: 3}
       propertyPath: timeLimit
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7424943441841064442, guid: 0ce96d6055e2c0c4791911792f01a25d, type: 3}
       propertyPath: collapsable
@@ -2333,11 +2333,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7943918645036441778, guid: 0ce96d6055e2c0c4791911792f01a25d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.9
+      value: 10.05
       objectReference: {fileID: 0}
     - target: {fileID: 7943918645036441778, guid: 0ce96d6055e2c0c4791911792f01a25d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.03
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7943918645036441778, guid: 0ce96d6055e2c0c4791911792f01a25d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2404,7 +2404,7 @@ PrefabInstance:
       objectReference: {fileID: 1782377958884320493}
     - target: {fileID: -7424943441841064442, guid: 0ce96d6055e2c0c4791911792f01a25d, type: 3}
       propertyPath: timeLimit
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7424943441841064442, guid: 0ce96d6055e2c0c4791911792f01a25d, type: 3}
       propertyPath: collapsable

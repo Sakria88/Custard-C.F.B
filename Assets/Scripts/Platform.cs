@@ -38,8 +38,7 @@ public class Platform : MonoBehaviour
         {
             respawn = 0;
             timer = 0;
-            animator.SetBool("step time", false);
-            animator.SetBool("Dis", false);
+
         }
         if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("brick dis"))
         {
@@ -61,7 +60,8 @@ public class Platform : MonoBehaviour
         {
             collider2.enabled = true;
             timers = false;
-
+            animator.SetBool("step time", false);
+            animator.SetBool("Dis", false);
         }
 
 
